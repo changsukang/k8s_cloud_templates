@@ -1,3 +1,12 @@
+# OS X Directory info 
+.DS_Store
+
+# Emacs backup files
+*~
+
+# Terraform binaries
+bin/terraform*
+
 # Local .terraform directories
 **/.terraform/*
 
