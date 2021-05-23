@@ -18,4 +18,7 @@
   * two security groups are defined, but not used yet.
 * variable.tf
   * Now only one variable: a designated IP that is used in a security_group. Not used yet as well as the security groups
-
+### GCP
+Coming soon. Probably easier than AWS.
+### Azure
+Coming soon. Probably easier than AWS.
