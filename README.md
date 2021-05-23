@@ -1,4 +1,4 @@
-## Terraform templated for Kubernetes on AWS, GCP, and Azure
+## Terraform templates for Kubernetes on AWS, GCP, and Azure
 ### AWS
 * provider.tf
   * declare these scripts run on AWS
