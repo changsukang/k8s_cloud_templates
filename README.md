@@ -1,22 +1,22 @@
 ## Terraform templates for Kubernetes on AWS, GCP, and Azure
 ### AWS
-* provider.tf
+* [provider.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/provider.tf)
   * declare these scripts run on AWS
-* vpc.tf
+* [vpc.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/vpc.tf)
   * define virtual private cloud
-* subnet.tf
+* [subnet.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/subnet.tf)
   * define public and private subnets and gateways
-* cluster.tf
+* [cluster.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/cluster.tf)
   * set up k8s control plane
-* node_group.tf
+* [node_group.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/node_group.tf)
   * run pods/containers on EC2
-* addon.tf
+* [addon.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/addon.tf)
   * set CNI (container network interface) up, not to use proxy/nat
-* iam_role.tf
+* [iam_role.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/iam_role.tf)
   * assign roles to cluster and node group to let them access and control components in VPC
-* security_group.tf
+* [security_group.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/security_group.tf)
   * two security groups are defined, but not used yet.
-* variable.tf
+* [variable.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/variable.tf)
   * Now only one variable: a designated IP that is used in a security_group. Not used yet as well as the security groups
 ### GCP
 Coming soon. Probably easier than AWS.
