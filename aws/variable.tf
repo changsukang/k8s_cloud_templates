@@ -1,3 +1,3 @@
-variable "designated_ip" {
+variable "designated_cidr" {
   type    = string
 }

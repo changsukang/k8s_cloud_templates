@@ -8,7 +8,7 @@ resource "aws_security_group" "allow_external_ssh" {
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-    cidr_blocks      = [var.designated_ip]
+    cidr_blocks      = [var.designated_cidr]
   }
 
   egress {
