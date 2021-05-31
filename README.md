@@ -1,5 +1,4 @@
 ## Terraform templates for Kubernetes on AWS
-### AWS
 * [provider.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/provider.tf)
   * declare these scripts run on AWS
 * [vpc.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/vpc.tf)
