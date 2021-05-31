@@ -1,4 +1,4 @@
-## Terraform templates for Kubernetes on AWS, GCP, and Azure
+## Terraform templates for Kubernetes on AWS
 ### AWS
 * [provider.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/provider.tf)
   * declare these scripts run on AWS
@@ -18,7 +18,4 @@
   * two security groups are defined, but not used yet.
 * [variable.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/variable.tf)
   * Now only one variable: a designated IP that is used in a security_group. Not used yet as well as the security groups
-### GCP
-Coming soon. Probably easier than AWS.
-### Azure
-Coming soon. Probably easier than AWS.
+
