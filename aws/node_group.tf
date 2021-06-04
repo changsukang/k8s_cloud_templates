@@ -24,6 +24,7 @@ resource "aws_eks_node_group" "eks" {
   }
   
   depends_on = [
+    aws_eks_addon.eks_vpc_cni,
     aws_iam_role_policy_attachment.eks_node_group_AmazonEKSWorkerNodePolicy,
     aws_iam_role_policy_attachment.eks_node_group_AmazonEKS_CNI_Policy,
     aws_iam_role_policy_attachment.eks_node_group_AmazonEC2ContainerRegistryReadOnly,
