@@ -19,5 +19,5 @@
 * [variable.tf](https://github.com/changsukang/k8s_terraform_templates/blob/main/aws/variable.tf)
   * Now only one variable: a designated IP that is used in a security_group. Not used yet as well as the security groups
 #### Docker
-* [apache2-k8s/Dockerfile](https://github.com/changsukang/k8s_terraform_templates/blob/main/docker/apache2-k8s/Dockerfile)
+* [apache2_k8s/Dockerfile](https://github.com/changsukang/k8s_terraform_templates/blob/main/docker/apache2_k8s/Dockerfile)
   * a simple docker template to run Apache2 with port 80 to serve a default index.html in Ubuntu
