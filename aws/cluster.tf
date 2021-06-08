@@ -1,5 +1,6 @@
 resource "aws_eks_cluster" "eks" {
   name     = "eks"
+  version  = "1.20"
   role_arn = aws_iam_role.eks.arn
 
   vpc_config {
