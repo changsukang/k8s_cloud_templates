@@ -1,0 +1,6 @@
+environment: development
+container:
+  name: apache2-k8s
+  port: 80
+  image: changsu0116/apache2-k8s
+replica: 1
