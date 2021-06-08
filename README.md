@@ -20,4 +20,7 @@
   * Now only one variable: a designated IP that is used in a security_group. Not used yet as well as the security groups
 #### Docker
 * [apache2_k8s/Dockerfile](https://github.com/changsukang/k8s_terraform_templates/blob/main/docker/apache2_k8s/Dockerfile)
-  * a simple docker template to run Apache2 with port 80 to serve a default index.html in Ubuntu
+  * a simple Docker template to run Apache2 with port 80 to serve a default index.html in Ubuntu
+#### Helm
+* [apache2_k8s/](https://github.com/changsukang/k8s_terraform_templates/tree/main/helm/apache-k8s)
+  * a simple Helm template to deploy a pod with the Docker image above and service of loadbalancer.
