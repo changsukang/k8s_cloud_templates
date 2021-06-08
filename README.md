@@ -22,5 +22,5 @@
 * [apache2_k8s/Dockerfile](https://github.com/changsukang/k8s_terraform_templates/blob/main/docker/apache2_k8s/Dockerfile)
   * a Docker template to run Apache2 with port 80 to serve a default index.html in Ubuntu
 #### Helm
-* [apache2_k8s/](https://github.com/changsukang/k8s_terraform_templates/tree/main/helm/apache-k8s)
+* [apache2_k8s/](https://github.com/changsukang/k8s_terraform_templates/tree/main/helm/apache_k8s)
   * a Helm template to deploy a pod with the Docker image above and service of loadbalancer.
