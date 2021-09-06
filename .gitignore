@@ -20,6 +20,9 @@ bin/terraform*
 *.tfstate
 *.tfstate.*
 
+# Dependecy lock file
+.terraform.lock.hcl
+
 # Crash log files
 crash.log
 
