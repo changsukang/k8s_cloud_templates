@@ -4,6 +4,9 @@
 # Emacs backup files
 *~
 
+# Vi swap files
+*.swp
+
 # Terraform binaries
 bin/terraform*
 
