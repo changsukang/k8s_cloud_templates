@@ -1,0 +1,10 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Values.container.name }}-ingress-{{ .Values.environment }}
+spec:
+  defaultBackend:
+    service:
+      name: {{ .Values.container.name }}-service-{{ .Values.environment }}
+      port:
+        number: 80
