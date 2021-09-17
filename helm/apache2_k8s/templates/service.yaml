@@ -5,7 +5,7 @@ metadata:
   labels:
     app: {{ .Values.container.name }}
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: {{ .Values.container.name }}
   ports:
